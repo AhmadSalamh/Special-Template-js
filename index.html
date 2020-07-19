@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Setting Box -->
+    <div class="setting-box ">
+        <div class="toggle-setting">
+             <i class="fa fa-gear"></i>
+        </div><!--./toggle-setting-->
+
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color='#FF9800'></li>
+                    <li data-color='#E91E63'></li>
+                    <li data-color="#009688"></li>
+                    <li data-color=" #03A9F4"></li>
+                    <li data-color=" #4CAF50"></li>
+                </ul><!--./colors-list-->
+            </div><!--./option-box-->
+
+            <div class="option-box">
+             <h4>Random Background</h4>
+             <div class="random-background">
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+             </div><!--./random-background-->
+            </div>
+
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullet-option">
+                   <span class="yes active" data-display="show">Show</span>
+                   <span class="no" data-display="hide">hide</span>
+                </div><!--./random-background-->
+            </div>
+
+            <button class="reset-options">Reset Options</button>
+
+        </div><!--./setting-container-->
+    </div><!--./setting-box-->
+    <!-- Setting Box -->
+
+    <!-- Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip" >About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip"  >Our Skills</div>
+        </div>
+        <div class="bullet" data-section='.gallery'>
+            <div class="tooltip" >Our Gallery</div>
+        </div>
+        <div class="bullet"  data-section=".timeline">
+            <div class="tooltip" >TimeLine</div>
+        </div>
+        <div class="bullet"  data-section='.features'>
+            <div class="tooltip" >Our Features</div>
+        </div>
+        <div class="bullet"  data-section=".testimonails">
+            <div class="tooltip" >Testimonails</div>
+        </div>
+    </div><!--./nav-bullets-->
+    <!-- Nav Bullets -->
+
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="contianer">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">TimeLine</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonails">Testimonails</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div><!--./links-container-->
+            </div><!--./header-area-->
+        </div><!--./container-->
+        <div class="introduction-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nihil earum voluptatem sed harum vel eos necessitatibus</p>
+        </div><!--./introduction-text-->
+    </div><!--./landing-page-->
+    <!-- Landing Page -->
+
+    <!-- About Us -->
+    <div class="contianer">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia amet eligendi asperiores quisquam doloremque quo voluptatum, modi corporis ratione esse quas eveniet similique dolorem delectus tenetur labore ad assumenda.</p>
+            </div><!--./info-obx-->
+            <div class="img-box">
+                <img src="./img/about-us.jpg" width="250px" alt="">
+            </div><!--./img-box-->
+        </div><!--./about-us-->
+    </div>
+    <!-- About Us -->
+
+    <!-- Our Skills-->
+    <div class="skills">
+        <div class="contianer">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div><!--./skill-box-->
+
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span  data-progress="70%"></span>
+                </div>
+            </div><!--./skill-box-->
+
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress">
+                    <span  data-progress="75%"></span>
+                </div>
+            </div><!--./skill-box-->
+
+            <div class="skill-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span  data-progress="50%"></span>
+                </div>
+            </div><!--./skill-box-->
+
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span  data-progress="65%"></span>
+                </div>
+            </div><!--./skill-box-->
+        </div>
+    </div><!--./skills-->
+    <!-- Our Skills-->
+
+    <!--Gallery-->
+    <div class="gallery">
+        <div class="contianer">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="./img/01.webp" alt="Image-one">
+                <img src="./img/02.webp" alt="Image-two">
+                <img src="./img/03.webp" alt="Image-three">
+                <img src="./img/04.webp" alt="Image-four">
+                <img src="./img/05.webp" alt="Image-five">
+                <img src="./img/05.webp">
+                <img src="./img/04.webp">
+                <img src="./img/03.webp">
+                <img src="./img/02.webp">
+                <img src="./img/01.webp">
+            </div>
+        </div>
+    </div>
+    <!--Gallery-->
+
+    <!-- TimeLine-->
+    <div class="timeline">
+        <div class="contianer">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis velit, facilis voluptatum neque itaque dolorum alias aspernatur iusto? Quidem architecto perspiciatis quam natus laborum ducimus sit ipsam doloribus sint dolore.</p>
+                    </div>
+                </div><!--./left-->
+
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Best Way</h3>
+                        <p>  ducimus sit ipsam doloribus sint dolore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quibusdam earum, suscipit itaque officiis et id tenetur reprehenderit, iure asperiores possimus ea quos ipsum.</p>
+                    </div>
+                </div><!--./right-->
+               
+                <div class="clearfix"></div>
+
+                <div class="year">2019</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis velit, facilis voluptatum neque itaque dolorum alias aspernatur iusto? Quidem architecto perspiciatis quam natus laborum ducimus sit ipsam doloribus sint dolore.</p>
+                    </div>
+                </div><!--./left-->
+               
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis velit, facilis voluptatum neque itaque dolorum alias aspernatur iusto? Quidem architecto perspiciatis quam natus laborum ducimus sit ipsam doloribus sint dolore.</p>
+                    </div>
+                </div><!--./left-->
+
+
+             
+
+            </div><!--./timeline-content-->
+        </div><!--./contianer-->
+    </div><!--./timeline-->
+    <!-- TimeLine-->
+
+    <!--Features-->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="contianer">
+            <div class="feat-box">
+                <img src="./img/feat/advertising.svg"  alt="">
+                <h4>Development</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+
+            <div class="feat-box">
+                <img src="./img/feat/mobile-app.svg" alt="">
+                <h4>Marketing</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+
+            <div class="feat-box">
+                <img src="./img/feat/programming.svg" alt="">
+                <h4>Hosting</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+
+            <div class="feat-box">
+                <img src="./img/feat/web-design.svg" alt="">
+                <h4>DataBase</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+
+            <div class="feat-box">
+                <img src="./img/feat/graphic-design.svg" alt="">
+                <h4>Cloud and Servers</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+
+            <div class="feat-box">
+                <img src="./img/feat/hosting-icon.svg" alt="">
+                <h4>Seo</h4>
+                <p>We are Professional Marketeers, We Will Do Anything you Imagine In No Time</p>
+            </div><!--./feat-box-->
+            <div class="clearfix"></div>
+        </div><!--./contianer-->
+    </div><!--./Features -->
+    <!--Features-->
+    
+    <!--Testimonalis-->
+    <div class="testimonails">
+        <div class="contianer">
+            <h2>Testimonails</h2>
+    
+            <div class="ts-box">
+                <p>Iam very happy with the product its amazing and it very fast and the price was amazing</p>
+                <div class="person-info">
+                    <img src="./img/team1.webp"width="120px" alt="">
+                    <h4>Ahmed Mosaad</h4>
+                    <p>CEO At Conpany</p>
+                </div><!--./person-info-->
+            </div><!--/ts-box-->
+
+            <div class="ts-box">
+                <p>Iam very happy with the product its amazing and it very fast and the price was amazing</p>
+                <div class="person-info">
+                    <img src="./img/team2.webp" width="120px" alt="">
+                    <h4>Mohammad Ibrahem</h4>
+                    <p>CEO At Conpany</p>
+                </div><!--./person-info-->
+            </div><!--/ts-box-->
+
+            <div class="ts-box">
+                <p>Iam very happy with the product its amazing and it very fast and the price was amazing</p>
+                <div class="person-info">
+                    <img src="./img/team3.webp"width="120px" alt="">
+                    <h4>Sharief Ashrif</h4>
+                    <p>CEO At Conpany</p>
+                </div><!--./person-info-->
+            </div><!--/ts-box-->
+        </div><!--./contianert-->
+        <div class="clearfix"></div>
+    </div><!--./testimonails-->
+    <!--Testimonalis-->
+
+    <!-- Contact Us--> 
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="contianer">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text"  name="username"placeholder="Your Name">
+                    <input type="text"  name="phone"   placeholder="Your Phone">
+                    <input type="email" name="email"   placeholder="Your Email">
+                    <input type="text"  name="subject" placeholder="Subject">
+                </div><!--./left-->
+
+                <div class="right">
+                   <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div><!--./right-->
+            </form>
+        </div><!--./contianer-->
+    </div><!--./contact-->
+    <!-- Contact Us--> 
+
+    <!--footer-->
+    <footer>
+        Create With Love By <span>Ahmad Salamh</span>
+    </footer>
+    <!--footer-->
+    <script src="js/main.js"></script>
+</body>
+</html>
